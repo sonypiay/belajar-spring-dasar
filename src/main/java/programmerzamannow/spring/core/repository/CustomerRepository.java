@@ -1,7 +1,6 @@
 package programmerzamannow.spring.core.repository;
 
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
 public class CustomerRepository {
 }
