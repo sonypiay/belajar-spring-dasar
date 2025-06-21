@@ -25,13 +25,13 @@ public class FooApplication {
 //        System.out.println(foo);
 //    }
 
-    public static void main(String[] args) {
-        SpringApplication application = new SpringApplication(FooApplication.class);
-        application.setBannerMode(Banner.Mode.OFF);
-        application.setListeners(List.of(new AppStartingListener()));
-        ConfigurableApplicationContext context = application.run(args);
-
-        Foo foo = context.getBean(Foo.class);
-        System.out.println(foo);
-    }
+//    public static void main(String[] args) {
+//        SpringApplication application = new SpringApplication(FooApplication.class);
+//        application.setBannerMode(Banner.Mode.OFF);
+//        application.setListeners(List.of(new AppStartingListener()));
+//        ConfigurableApplicationContext context = application.run(args);
+//
+//        Foo foo = context.getBean(Foo.class);
+//        System.out.println(foo);
+//    }
 }
